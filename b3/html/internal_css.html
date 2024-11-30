@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internal_css</title>
+
+    <!--add internal CSS -->
+    <style>
+        body{
+            background-color: aquamarine;
+            display: flex;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        div {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(33, 131, 163);
+            border-radius: 20px;
+            padding: 10px;
+            border: solid 5px black;
+        }
+
+        .left{
+            margin-right: 10px;
+            background-color: lightblue;
+            background-image: url("https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474112kFm/hinh-anh-zata-lien-quan-cuc-cute_090842802.jpg");
+            border-radius: 20px;
+            background-size: cover;
+        }
+        .left:hover {
+            color: rgb(255, 255, 255);
+            box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+        }
+
+        .right{
+            margin-right: 10px;
+            background-color: lightblue;
+            background-image: url("https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474112kFm/hinh-anh-zata-lien-quan-cuc-cute_090842802.jpg");
+            border-radius: 20px;
+            background-size: cover;
+        }
+        .right:hover {
+            color: rgb(255, 255, 255);
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">this is a left box</div>
+    <div class="right">this is a right box</div>
+</body>
+</html>
