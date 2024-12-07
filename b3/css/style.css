@@ -10,8 +10,7 @@
 }
 
 body{
-    font-family: "Noto Sans JP", serif;
-    font-optical-sizing: auto;
+
    font-weight: 400;
    font-size: 25px;
    padding: 0;
@@ -43,20 +42,20 @@ section{
     color: white;
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/9bc27292880429.5e569ff84e4d0.gif);
 }   
-#add div{
+#ads div{
     border: 2px dotted red;
 }
-#add div:first-child{
+#ads div:first-child{
     background: black;
     position: fixed;
     top: 50%;
     z-index: 1001;
 }
-#add div:nth-child(2){
+#ads div:nth-child(2){
     width: 100px;
     position: relative;
 }
-#add div:last-child{
+#ads div:last-child{
     background: pink;
     position: fixed;
     top: 50%;
