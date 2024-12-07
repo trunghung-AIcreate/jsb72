@@ -1,0 +1,65 @@
+*{
+    min-width: 1200px;
+    min-height: 50 px;
+    background: rgb(106,93,249);
+    background: linear-gradient(
+        90deg,
+         rgba(106,93,249,1) 85%, 
+         rgba(0,212,255,0.23862044817927175) 100%
+    );
+}
+
+body{
+    font-family: "Noto Sans JP", serif;
+    font-optical-sizing: auto;
+   font-weight: 400;
+   font-size: 25px;
+   padding: 0;
+
+}
+nav { 
+    background: black;
+    font-weight: 75;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    z-index: 1000;
+
+}
+footer {
+    background: black;
+    height: 500px;
+}
+section{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+ }
+#intro{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/9bc27292880429.5e569ff84e4d0.gif);
+}   
+#add div{
+    border: 2px dotted red;
+}
+#add div:first-child{
+    background: black;
+    position: fixed;
+    top: 50%;
+    z-index: 1001;
+}
+#add div:nth-child(2){
+    width: 100px;
+    position: relative;
+}
+#add div:last-child{
+    background: pink;
+    position: fixed;
+    top: 50%;
+    width: 50px;
+    z-index: 1001;
+}
