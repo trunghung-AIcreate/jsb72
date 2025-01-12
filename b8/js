@@ -1,0 +1,19 @@
+// bam nut submit form => lay du lieu cua nguoi dung
+document
+  .getElementById("re_submit_btn")
+  .addEventListener("click", function (event) {
+    // lay du lieu cua nguoi dung
+    var re_password = document.getElementById("re_password").value;
+    var re_confirm_password = document.getElementById(
+      "re_confirm_password"
+    ).value;
+
+    // kiem tra confirm password
+    // ==: so sanh gia tri (1 == "1" => true)
+    // ===: so sanh gia tri va kieu du lieu (1 === "1" => false)
+if (re_password !== re_confirm_password) {
+      alert("Confirm password not match");
+      return;
+    }
+  
+  });
